@@ -1,0 +1,46 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+
+
+/* Header Styles for Demo */
+header
+{
+  padding-top: 200px;
+  background-color: red;
+  height: 300px;
+}
+.btn-default {
+    color: #fff;
+    background-color: red;
+    border-color: #ccc;
+}
+/*header {
+  padding: 300px;
+  text-align: center;
+  background-image: url(https://unsplash.it/800?image=974);
+  background-position: center;
+  background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em;
+}*/
