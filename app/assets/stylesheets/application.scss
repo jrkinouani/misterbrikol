@@ -8,39 +8,43 @@
     -moz-transition: all .35s;
     transition: all .35s;
     padding: 15px 0;
+    background: transparent;
     /* Add additional styles here for the UNCOLLAPSED state */
   }
   .navbar-default.affix {
     padding: 0;
+    background: #fff;
+
     /* Add additional styles here for the COLLAPSED state */
   }
 }
 
-
+.navbar-default .navbar-brand {
+    color: red;
+    font-weight: 300;
+}
+.navbar-default.affix .navbar-nav > li > a {
+    color: red;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
 /* Header Styles for Demo */
 header
 {
-  padding-top: 200px;
-  background-color: red;
-  height: 300px;
-}
-.btn-default {
-    color: #fff;
-    background-color: red;
-    border-color: #ccc;
-}
-/*header {
-  padding: 300px;
+  padding-top: 300px;
   text-align: center;
-  background-image: url(https://unsplash.it/800?image=974);
-  background-position: center;
+  background-image: url(/bricoleur.jpg);
+  height: 650px;
   background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-header h1 {
+  background-repeat:no-repeat;
   color: white;
-  font-size: 2em;
-}*/
+}
+a.typewrite
+{
+  color: #fff;
+}
+.slogan
+{
+  font-weight: 300;
+}
