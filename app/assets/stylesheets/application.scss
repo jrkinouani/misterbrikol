@@ -9,6 +9,7 @@
     transition: all .35s;
     padding: 15px 0;
     background: transparent;
+    border-radius: transparent;
     /* Add additional styles here for the UNCOLLAPSED state */
   }
   .navbar-default.affix {
@@ -18,16 +19,20 @@
     /* Add additional styles here for the COLLAPSED state */
   }
 }
-
+.navbar-default {
+    border-color: transparent;
+}
 .navbar-default .navbar-brand {
-    color: red;
-    font-weight: 300;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
 }
 .navbar-default.affix .navbar-nav > li > a {
     color: red;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    font-weight: bold;
 }
 /* Header Styles for Demo */
 header
@@ -39,12 +44,19 @@ header
   background-size: cover;
   background-repeat:no-repeat;
   color: white;
+
+
 }
 a.typewrite
 {
   color: #fff;
 }
-.slogan
+h2.slogan
 {
   font-weight: 300;
+  font-size: 24px;
+}
+h1.menu_typewrite
+{
+  margin-bottom: 50px;
 }
